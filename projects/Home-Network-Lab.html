@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Network Lab | Chad Mitchell</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <div class="nav-left">Chad Mitchell</div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <h2>Project: Home Network Lab</h2>
+
+  <section class="card">
+    <h3>Objective</h3>
+    <ul>
+      <li>Document and analyze a real-world home network</li>
+      <li>Illustrate topology, IP addressing, and traffic flow</li>
+      <li>Mock IPs and device names were used for demonstration purposes</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h3>Network Topology</h3>
+    <ul>
+      <li>Router: ISP Model X</li>
+      <li>Switch: Model Y (if any)</li>
+      <li>Raspberry Pi: DHCP server / monitoring node</li>
+      <li>Devices: Workstations, Phones, IoT devices</li>
+    </ul>
+    <p><em>Diagram placeholder: add a network diagram image here later.</em></p>
+  </section>
+
+  <section class="card">
+    <h3>IP Addressing</h3>
+    <table class="ip-table">
+      <thead>
+        <tr>
+          <th>Device</th>
+          <th>IP Address</th>
+          <th>Subnet Mask</th>
+          <th>Gateway</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Router</td>
+          <td>192.168.1.1</td>
+          <td>255.255.255.0</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Raspberry Pi</td>
+          <td>192.168.1.10</td>
+          <td>255.255.255.0</td>
+          <td>192.168.1.1</td>
+        </tr>
+        <tr>
+          <td>Workstation</td>
+          <td>192.168.1.101</td>
+          <td>255.255.255.0</td>
+          <td>192.168.1.1</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>192.168.1.102</td>
+          <td>255.255.255.0</td>
+          <td>192.168.1.1</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>DHCP Range: 192.168.1.100 – 192.168.1.200</p>
+  </section>
+
+  <section class="card">
+    <h3>Lessons Learned</h3>
+    <ul>
+      <li>Understanding routing within a home network</li>
+      <li>Observing how devices acquire IP addresses</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Chad Mitchell</p>
+</footer>
+
+</body>
+</html>
